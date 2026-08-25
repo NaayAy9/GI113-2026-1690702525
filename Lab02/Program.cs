@@ -23,6 +23,7 @@ namespace Lab02
             float attackPower = 42.5f;
             double critMultiplier = 1.75;
             bool isBoss = true;
+
             // ประกาศตัวแปร 6 ตัว
             Console.WriteLine("===== BOSS STATUS: INTITIAL =====");
             Console.WriteLine($"Name: {bossName}");
