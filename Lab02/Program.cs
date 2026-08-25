@@ -48,6 +48,62 @@ namespace Lab02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent: {hpPercent}%");
+
+            // Part B
+            // ตัวละคร 1
+            string infectedName = "Eren";
+            int Health = 40;
+            float StaminaRegen = 1.25f;
+            char Rank = 'B';
+            bool IsInfected = false;
+
+            Console.WriteLine($"Name: {infectedName}");
+            Console.WriteLine($"Health: {Health}");
+            Console.WriteLine($"Stamina Regen: {StaminaRegen}");
+            Console.WriteLine($"Rank: {Rank}");
+            Console.WriteLine($"Is Infected: {IsInfected}");
+            Console.WriteLine();
+
+            // ตัวละคร 2
+            string survivalName = "Mikasa";
+            int meleeAttack = 40;
+            double attackRange = 1.25;
+            char Zone = 'N';
+            bool HasKnife = true;
+
+            Console.WriteLine($"Name: {survivalName}");
+            Console.WriteLine($"Melee Attack: {meleeAttack}");
+            Console.WriteLine($"Attack Range: {attackRange}%");
+            Console.WriteLine($"Zone: {Zone}");
+            Console.WriteLine($"Has Knife: {HasKnife}");
+            Console.WriteLine();
+
+            // ตัวละคร 3
+            string survival2Name = "Armin";
+            int survival2Level = 3;
+            float survival2Speed = 6.8f;
+            char survival2Role = 'S';
+            bool survival2IsLeader = true;
+
+            Console.WriteLine($"Name: {survival2Name}");
+            Console.WriteLine($"Level: {survival2Level}");
+            Console.WriteLine($"Speed: {survival2Speed}");
+            Console.WriteLine($"Role: {survival2Role}");
+            Console.WriteLine($"Is Leader: {survival2IsLeader}");
+            Console.WriteLine();
+
+            // ตัวละคร 4
+            string survival3Name = "Levi";
+            int survival3Kills = 14;
+            double survival3SurvivalDays = 22.5;
+            char survival3Status = 'A';
+            bool survival3IsDisabled = true;
+
+            Console.WriteLine($"Name: {survival3Name}");
+            Console.WriteLine($"Kills: {survival3Kills}");
+            Console.WriteLine($"Survival Days: {survival3SurvivalDays}");
+            Console.WriteLine($"Status: {survival3Status}");
+            Console.WriteLine($"Is Disabled: {survival3IsDisabled}");
         }
     }
 }
